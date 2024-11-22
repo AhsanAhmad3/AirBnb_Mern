@@ -24,6 +24,7 @@ function App() {
 
           <Route path="/account/:subpage?" element={<AccountPage />} />
       
+          <Route path="/account/:subpage/:action" element={<AccountPage />} />
           
 
         </Route>
